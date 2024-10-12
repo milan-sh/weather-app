@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { key } from "./APIkey";
+import { key } from "./Apikey";
 import {
   AirCondition,
   Input,
@@ -69,12 +69,12 @@ function App() {
           <Input />
         </div>
         {error ? (
-          <div className="w-full min-h-80 flex md:items-center justify-center">
+          <div className="w-full h-[80vh] flex md:items-center justify-center">
             <h1 className="text-red-600 font-bold md:text-5xl text-3xl text-center">
               Enter the correct city name and try again :(
             </h1>
           </div>
-        ) : (loading ? (<h1 className="text-green-600 text-4xl mt-12">Loading.....</h1>) : (
+        ) : (loading ? (<h1 className="text-green-600 text-4xl mt-12 h-[80vh]">Loading.....</h1>) : (
           <div className="w-full h-full flex flex-col items-center justify-between gap-4 md:justify-between md:items-start md:flex-row md:flex-wrap ">
             <div className="left flex flex-col w-full h-full md:w-3/5">
               <MainCard />

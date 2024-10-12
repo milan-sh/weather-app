@@ -23,7 +23,7 @@ The **Weather App** is a React-based project that utilizes a weather API to prov
 ---
 
 ## Installation  
-1. Clone the repository:  
+Clone the repository:  
    ```bash
    git clone https://github.com/milan-sh/weather-app.git
    cd weather-app

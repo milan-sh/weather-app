@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { key } from "../APIkey";
+import { key } from "../APIkey.js";
 import {
   AirCondition,
   Input,
